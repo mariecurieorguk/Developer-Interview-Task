@@ -1,0 +1,24 @@
+{
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": true,
+    "baseBranches": [],
+    "snippetSize": 10
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "high"
+  },
+  "checkRunSettings": {
+    "useMendCheckNames": true
+  },
+   "imageSettings":{
+       "imageTracing":{
+           "enableImageTracingPR": false,
+           "addRepositoryCoordinate": false,
+           "addDockerfilePath": false,
+           "addMendIdentifier": false
+       }
+   }
+}
